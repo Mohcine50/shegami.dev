@@ -1,0 +1,83 @@
+.slider {
+  align-items: center;
+  background-color: transparent;
+  display: flex;
+  height: 80%;
+  justify-content: center;
+  left: 50%;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.slider .slide {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.6) 0px 0px 18px 3px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.slider .slide img {
+  width: 60vw;
+}
+
+.slider .prevButton {
+  color: #000;
+  cursor: pointer;
+  font-size: 3rem;
+  height: 20px;
+  left: 32px;
+  position: absolute;
+  top: 50%;
+  width: 90px;
+  z-index: 10;
+  outline: none;
+  border: none;
+  background: transparent;
+  transform: rotate(-0.13turn);
+}
+
+.slider .nextButton {
+  color: #000;
+  cursor: pointer;
+  font-size: 3rem;
+  height: 20px;
+  right: 32px;
+  position: absolute;
+  top: 50%;
+  width: 90px;
+  z-index: 10;
+  outline: none;
+  border: none;
+  background: transparent;
+  transform: rotate(0.13turn);
+}
+.slider .nextButton img {
+  width: 100%;
+}
+.slider .prevButton img {
+  width: 100%;
+}
+
+@media screen and (max-width: 364px) {
+  .slider .nextButton {
+    right: -49px;
+    height: 15px;
+  }
+  .slider .prevButton {
+    left: -55px;
+    height: 15px;
+  }
+  .slider .nextButton img {
+    width: 50%;
+  }
+  .slider .prevButton img {
+    width: 50%;
+  }
+}

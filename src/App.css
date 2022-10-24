@@ -1,0 +1,20 @@
+.App {
+  background-image: url("./images/bg-body.jpg");
+  min-height: 100vh;
+}
+
+footer {
+  background-image: url("./images/bg-footer.jpg");
+  width: 100vw;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+footer p {
+  color: #dbdbdb;
+  font-size: 22px;
+  font-family: "Minecrafter-Alt";
+}

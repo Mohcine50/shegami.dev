@@ -1,0 +1,52 @@
+.skill {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+  margin-top: 20px;
+  width: fit-content;
+}
+
+.skill .skill-info {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.skill .skill-info > h1 {
+  font-family: "ExoSpace";
+  font-size: 20px;
+  font-weight: 600;
+  color: #372822;
+  text-transform: capitalize;
+}
+
+.skill .level-line {
+  width: 30vw;
+  height: 12px;
+  border-radius: 8px;
+  background-color: #bdde8f;
+}
+
+.skill .level-line > span {
+  height: 100%;
+  display: block;
+  border-radius: 8px;
+  background-image: linear-gradient(to right, #66d, #2298);
+  animation: width 1.5s ease-in-out forwards;
+}
+
+.skill #level {
+  font-family: "ExoSpace";
+  font-weight: 600;
+  font-size: 14px;
+  width: fit-content;
+}
+
+@keyframes width {
+  from {
+    width: 0;
+  }
+}
+

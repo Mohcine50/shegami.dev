@@ -1,0 +1,114 @@
+.splash {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../../images/bg-body2.png");
+}
+
+.splash > h1 {
+  font-size: 160px;
+  font-weight: 400;
+  color: var(--browny);
+  font-family: "Minecrafter-Alt";
+  animation: fadeInLeft 2s ease, fadeOut 2s ease forwards 4s;
+}
+
+.splash .loading {
+  width: 50vw;
+  height: 15px;
+  border: 1px solid var(--browny);
+  border-radius: 10px;
+  overflow: hidden;
+  animation: fadeInBottom 2s ease-out, fadeOut 20ms ease forwards 4s;
+}
+
+.splash .loading span {
+  display: block;
+  width: inherit;
+  z-index: 5;
+  height: inherit;
+  background-color: rgb(255, 80, 11);
+  animation: load 3s ease, loadin-op 3s ease-in-out;
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    transform: translate3d(0, -100%, 0);
+    opacity: 0;
+  }
+}
+
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes fadeInBottom {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes loadin-op {
+  0% {
+    opacity: 0;
+  }
+  30% {
+    opacity: 1;
+  }
+  70% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes load {
+  0% {
+    width: 0;
+  }
+  30% {
+    width: 30%;
+  }
+
+  50% {
+    width: 50%;
+  }
+  850% {
+    width: 50%;
+  }
+  1000% {
+    width: 50%;
+  }
+}
+@media screen and (max-width: 872px) {
+  .splash > h1 {
+    font-size: 100px;
+  }
+}
+@media screen and (max-width: 680px) {
+  .splash > h1 {
+    font-size: 85px;
+  }
+}
+@media screen and (max-width: 372px) {
+  .splash > h1 {
+    font-size: 60px;
+  }
+}
