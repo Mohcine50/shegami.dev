@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/shegami.dev/static/css/main.db4cfb19.css",
+    "main.js": "/shegami.dev/static/js/main.abf8f0cf.js",
+    "static/media/lap.png": "/shegami.dev/static/media/lap.bf9d2d8ffb4a5d2451a3.png",
+    "static/media/Minecraftia-Regular.ttf": "/shegami.dev/static/media/Minecraftia-Regular.69fd3db14fbc8b3f7cdb.ttf",
+    "static/media/Exo Space.ttf": "/shegami.dev/static/media/Exo Space.b6096e5274189ebc352e.ttf",
+    "static/media/Minecrafter.Alt.ttf": "/shegami.dev/static/media/Minecrafter.Alt.e055747ae2ed69bb05d7.ttf",
+    "static/media/s.gif": "/shegami.dev/static/media/s.98308f10fd26e9458b19.gif",
+    "static/media/Minecraft.ttf": "/shegami.dev/static/media/Minecraft.81f6c7f882fcc2dee106.ttf",
+    "static/media/arrow.png": "/shegami.dev/static/media/arrow.3805643d8567f7a92ac8.png",
+    "static/media/Minecrafter.Reg.ttf": "/shegami.dev/static/media/Minecrafter.Reg.697a9d6552471f719bae.ttf",
+    "static/media/eightbitoperatorplus-regular-webfont.woff2": "/shegami.dev/static/media/eightbitoperatorplus-regular-webfont.02839fb6423bab4c0cef.woff2",
+    "static/media/eightbitoperatorplus8-bold-webfont.woff2": "/shegami.dev/static/media/eightbitoperatorplus8-bold-webfont.9c68c9c8fd83ffc47448.woff2",
+    "index.html": "/shegami.dev/index.html",
+    "main.db4cfb19.css.map": "/shegami.dev/static/css/main.db4cfb19.css.map",
+    "main.abf8f0cf.js.map": "/shegami.dev/static/js/main.abf8f0cf.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db4cfb19.css",
+    "static/js/main.abf8f0cf.js"
+  ]
+}
